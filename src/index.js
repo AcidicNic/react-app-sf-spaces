@@ -9,12 +9,12 @@ import POPOSDetails from './components/POPOSDetails/POPOSDetails';
 import About from './components/About/About';
 
 ReactDOM.render(
-  <Router basename="/react-app-sf-spaces">
+  <Router basename={window.location.pathname || ''}>
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="/" element={<POPOSList />} />
         <Route path="/details/:id" element={<POPOSDetails />} />
-        <Route path="about" element={<About />} />
+        <Route path="/about" element={<About />} />
       </Route>
     </Routes>
   </Router>,
