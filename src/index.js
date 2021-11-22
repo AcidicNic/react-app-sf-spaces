@@ -9,7 +9,7 @@ import POPOSDetails from './components/POPOSDetails/POPOSDetails';
 import About from './components/About/About';
 
 ReactDOM.render(
-  <Router basename={window.location.pathname || ''}>
+  <Router>
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="/" element={<POPOSList />} />
