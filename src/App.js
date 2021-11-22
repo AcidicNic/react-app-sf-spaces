@@ -1,15 +1,15 @@
-import './App.css';
+import './App.css'
 
-import Title from './Title';
-import PumpkinPatchList from './PumpkinPatchList';
-import Footer from './Footer';
+import Title from './Title'
+import POPOSList from './POPOSList'
+import Footer from './Footer'
 
 function App() {
   return (
     <div className="App">
       <Title />
 
-      <PumpkinPatchList />
+      <POPOSList />
 
       <Footer />
     </div>

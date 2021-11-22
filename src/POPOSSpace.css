@@ -1,8 +1,9 @@
-.PumpkinPatch {
+.POPOSSpace {
   width: 100%;
   text-align: center;
 }
-.PumpkinPatch > img {
+
+.POPOSSpace > img {
   width: 100%;
   height: auto;
 }
