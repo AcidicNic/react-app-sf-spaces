@@ -25,16 +25,18 @@ function POPOSList() {
   })
 
   return (
-    <div className="POPOSList">
+    <div className="POPOSList-Container">
       <form>
         <input
           value={query}
-          placeholder="search"
+          placeholder="Search"
           onChange={(e) => setQuery(e.target.value)}
         />
         <button type="submit">Submit</button>
       </form>
-      {spaces}
+      <div className="POPOSList">
+        {spaces}
+      </div>
     </div>
   )
 }

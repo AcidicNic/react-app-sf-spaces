@@ -1,0 +1,8 @@
+.RandomSpace:hover {
+  cursor: pointer;
+  color: white;
+}
+.RandomSpace {
+  border: solid 1px;
+  border-radius: 10px
+}

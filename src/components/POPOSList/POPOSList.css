@@ -7,27 +7,30 @@
   padding: 2em;
 }
 
-.POPOSList form {
-	display: flex;
-	align-items: flex-start;
+.POPOSList-Container form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 20%;
+  margin: auto;
 }
 
-.POPOSList form input, .POPOSList form button {
-	padding: 1em;
-	margin: 0;
-	border: 1px solid;
-	font-size: 1rem;
+.POPOSList-Container form input, .POPOSList-Container form button {
+  padding: 1em;
+  margin: 0;
+  border: 1px solid;
+  font-size: 1rem;
 }
 
-.POPOSList form input {
-	flex: 1;
-	border-top-left-radius: 0.5em;
-	border-bottom-left-radius: 0.5em;
+.POPOSList-Container form input {
+  flex: 1;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
 }
 
-.POPOSList form button {
-	border-top-right-radius: 0.5em;
-	border-bottom-right-radius: 0.5em;
+.POPOSList-Container form button {
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
 }
 
 @media only screen and (max-width: 960px) {
