@@ -3,7 +3,16 @@
   text-align: center;
 }
 
-.POPOSSpace > img {
+.POPOSSpace > a > img {
   width: 100%;
   height: auto;
+  margin-bottom: 5px;
+}
+
+.POPOSSpace > h1 > a {
+  color: black;
+  text-decoration: none;
+}
+.POPOSSpace > h1 > a:hover {
+  cursor: pointer;
 }
