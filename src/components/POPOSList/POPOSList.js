@@ -11,7 +11,7 @@ function POPOSList() {
     const inAddress = obj.address.toLowerCase().includes(query.toLowerCase())
     return inTitle || inAddress
   }).map((obj) => {
-    const { id, title, address, images, hours, features } = obj
+    const { id, title, address, images, hours } = obj
     return (
       <POPOSSpace
         id={id}
